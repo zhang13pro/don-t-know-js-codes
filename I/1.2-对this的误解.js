@@ -9,4 +9,5 @@ function bar() {
   console.log(this.a);
 }
 
-foo(); // this.bar is not a function
+// TypeError: this.bar is not a function
+foo(); // 浏览器环境 undefined
