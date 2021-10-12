@@ -83,3 +83,21 @@ _规则_
 箭头函数可以像 `bind()` 一样确保函数的 this 被绑定到指定对象，此外，其重要性还体现在它用更常见的词法作用域(像 ES6 之前的 `var self = this`)取代了传统的 this 机制。
 
 ## 对象
+
+对象中，属性名永远是字符串。
+
+ES6 定义了 `Object.assign()` 实现浅拷贝。
+
+属性访问的*细节* [./I/3.3-[[Get]].js](./I/3.3-[[Get]].js)
+
+### 枚举
+
+不推荐对数组使用 for..in 循环。这种循环方式不仅会包含所有数值索引，还包含所有可枚举属性。
+
+### 存在性
+
+- in （检测属性名 也就是对象的 key）
+- hasOwnProperty()
+- propertyIsEnumerable()
+- Object.keys()
+- getOwnPropertyNames()
