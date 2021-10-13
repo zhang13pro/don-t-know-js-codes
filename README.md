@@ -101,3 +101,9 @@ ES6 定义了 `Object.assign()` 实现浅拷贝。
 - propertyIsEnumerable()
 - Object.keys()
 - getOwnPropertyNames()
+
+## “类”
+
+实现 `new`
+
+继承属于复制 JavaScript 委托机制
