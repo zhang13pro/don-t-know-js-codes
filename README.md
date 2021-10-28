@@ -106,4 +106,5 @@ ES6 定义了 `Object.assign()` 实现浅拷贝。
 
 实现 `new`
 
-继承属于复制 JavaScript 委托机制
+面向对象的继承属于复制
+JavaScript 属于原型链委托机制
